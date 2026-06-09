@@ -279,6 +279,22 @@ qaItems.forEach(item => {
   });
 });
 
+// Prevent immediate redirect on mobile/touch when clicking collapsed cards
+const orderButtons = document.querySelectorAll('.qa-order-btn');
+orderButtons.forEach(btn => {
+  btn.addEventListener('click', (e) => {
+    const item = btn.closest('.qa-item');
+    if (!item.classList.contains('active')) {
+      e.preventDefault();
+      e.stopPropagation();
+      qaItems.forEach(i => i.classList.remove('active'));
+      item.classList.add('active');
+    } else {
+      e.stopPropagation();
+    }
+  });
+});
+
 /* ─── INIT ─── */
 document.addEventListener('DOMContentLoaded', () => {
   initParticles();
