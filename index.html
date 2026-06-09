@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Scentalicious — The Modern Queens Collection. Five queens. Five personalities. One unforgettable signature. Premium niche fragrance for the modern woman." />
+  <meta property="og:title" content="Scentalicious — The Modern Queens Collection" />
+  <meta property="og:description" content="Every woman carries a crown. Discover five queens, five personalities, one unforgettable signature." />
+  <meta property="og:type" content="website" />
+  <title>Scentalicious — The Modern Queens Collection</title>
+
+  <!-- Preconnect Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- ╔══════════════════════════════════════════════════════════╗
+       ║  NAVIGATION
+       ╚══════════════════════════════════════════════════════════╝ -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <a href="#hero" class="nav-logo" id="nav-logo">
+      <span class="nav-crown">&#9819;</span>
+      SCENTALICIOUS
+    </a>
+
+    <ul class="nav-links" role="list">
+      <li><a href="#brand-story" id="nav-story">Story</a></li>
+      <li><a href="#five-queens" id="nav-queens">The Queens</a></li>
+      <li><a href="#collection-showcase" id="nav-collection">Collection</a></li>
+      <li><a href="https://wa.me/6281234567890?text=Hello%20Scentalicious,%20I%20would%20like%20to%20order%20from%20The%20Modern%20Queens%20Collection." target="_blank" class="nav-cta" id="nav-explore">Order Now</a></li>
+    </ul>
+
+    <div class="nav-hamburger" id="nav-hamburger" aria-label="Toggle navigation menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="nav-mobile-menu" id="nav-mobile-menu">
+    <button class="nav-mobile-close" id="nav-mobile-close" aria-label="Close menu">&times;</button>
+    <a href="#brand-story">Story</a>
+    <a href="#five-queens">The Queens</a>
+    <a href="#collection-showcase">Collection</a>
+    <a href="https://wa.me/6281234567890?text=Hello%20Scentalicious,%20I%20would%20like%20to%20order%20from%20The%20Modern%20Queens%20Collection." target="_blank">Order Now</a>
+  </div>
+
+  <!-- ╔══════════════════════════════════════════════════════════╗
+       ║  SECTION 01 — HERO
+       ╚══════════════════════════════════════════════════════════╝ -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <canvas id="particle-canvas"></canvas>
+    
+    <div class="hero-content">
+      <span class="hero-crown" aria-hidden="true">&#9819;</span>
+      <h1 class="hero-logo">Scentalicious</h1>
+      <p class="hero-logo-sub">The Modern Queens Collection</p>
+      <div class="hero-divider"></div>
+      <h2 class="hero-headline">Every Woman <span>Carries A Crown.</span></h2>
+      <p class="hero-sub">
+        Five distinct personalities. Five philosophies. Five unforgettable signatures — find the queen that feels like you.
+      </p>
+      <div class="hero-actions">
+        <a href="#five-queens" class="btn-primary"><span>Explore The Queens</span></a>
+        <a href="#collection-showcase" class="btn-secondary"><span>View Collection</span></a>
+      </div>
+    </div>
+
+    <div class="hero-scroll-indicator">
+      <div class="scroll-line"></div>
+      <span class="scroll-label">Scroll</span>
+    </div>
+  </section>
+
+  <!-- ╔══════════════════════════════════════════════════════════╗
+       ║  SECTION 02 — BRAND STORY
+       ╚══════════════════════════════════════════════════════════╝ -->
+  <section id="brand-story" class="reveal">
+    <div class="container">
+      <div class="brand-story-grid">
+        <div class="brand-story-image">
+          <img src="assets/images/brand-story.jpg" alt="Scentalicious Brand Heritage" />
+          <div class="brand-story-badge">
+            <span>2026</span>
+            <small>EST.</small>
+          </div>
+        </div>
+        <div class="brand-story-content">
+          <span class="section-label">Brand Story</span>
+          <h2 class="section-heading">The Heritage of <em>Scentalicious</em></h2>
+          <p class="brand-story-body">
+            Every bottle of <strong>Scentalicious</strong> is a tribute to the power, elegance, and multi-faceted nature of the modern woman. Inspired by the legacy of the Five Queens, we craft fragrances that do not merely scent the skin, but define an identity.
+          </p>
+          <p class="brand-story-body">
+            We believe that every woman carries an invisible crown. Our mission is to make that crown felt, seen, and remembered through the medium of luxury niche perfumery.
+          </p>
+          <div class="brand-story-quote">
+            <p>"A woman who wears her story becomes unforgettable. Her fragrance is her signature — the invisible crown."</p>
+          </div>
+          <a href="#five-queens" class="brand-story-link">Discover The Queens &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ╔══════════════════════════════════════════════════════════╗
+       ║  SECTION 03 — THE FIVE QUEENS (Horizontal Accordion)
+       ╚══════════════════════════════════════════════════════════╝ -->
+  <section id="five-queens">
+    <div class="container">
+      <div class="queens-intro text-center">
+        <h2 class="section-heading reveal reveal-delay-1">The Five Queens</h2>
+        <p class="reveal reveal-delay-2">Five distinct personalities. Five philosophies. Five unforgettable signatures — each queen tells her own story in a single scent.</p>
+      </div>
+    </div>
+
+    <!-- Full-width accordion list -->
+    <div class="qa-list reveal">
+
+      <!-- ── 01 ALEXANDRA ── -->
+      <article class="qa-item qa-alexandra" id="card-alexandra" tabindex="0" aria-label="Alexandra — The Visionary Queen">
+        <div class="qa-inner">
+          <div class="qa-bg" style="background-image: url('assets/images/alexandra.jpg');"></div>
+          <div class="qa-overlay"></div>
+          
+          <div class="qa-left-zone">
+            <span class="qa-num" aria-hidden="true">01</span>
+            <div class="qa-identity">
+              <h3 class="qa-name">Alexandra</h3>
+              <p class="qa-title-tag">The Visionary Queen</p>
+            </div>
+            <p class="qa-motto">&ldquo;Lead With Grace.&rdquo;</p>
+          </div>
+
+          <div class="qa-details" aria-hidden="true">
+            <div class="qa-phil">
+              <span class="qa-phil-icon">&#9819;</span>
+              <div>
+                <p class="qa-phil-title">The Crown</p>
+                <p class="qa-phil-text">Every woman possesses her own inner strength — a crown she wears invisibly, present in every step she takes with intention and grace.</p>
+              </div>
+            </div>
+            <div class="qa-notes-divider"></div>
+            <div class="qa-notes-grid">
+              <div class="qa-note-item">
+                <span class="qa-note-tier">Top</span>
+                <span class="qa-note-name">Pear</span>
+              </div>
+              <div class="qa-note-item">
+                <span class="qa-note-tier">Heart</span>
+                <span class="qa-note-name">White Rose</span>
+              </div>
+              <div class="qa-note-item">
+                <span class="qa-note-tier">Base</span>
+                <span class="qa-note-name">White Musk</span>
+              </div>
+            </div>
+            <a href="https://wa.me/6281234567890?text=Hello%20Scentalicious,%20I%20would%20like%20to%20order%20Alexandra." target="_blank" class="qa-order-btn">Order Alexandra &rarr;</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- ── 02 LEONOR ── -->
+      <article class="qa-item qa-leonor" id="card-leonor" tabindex="0" aria-label="Leonor — The Fearless Queen">
+        <div class="qa-inner">
+          <div class="qa-bg" style="background-image: url('assets/images/leonor.jpg');"></div>
+          <div class="qa-overlay"></div>
+          
+          <div class="qa-left-zone">
+            <span class="qa-num" aria-hidden="true">02</span>
+            <div class="qa-identity">
+              <h3 class="qa-name">Leonor</h3>
+              <p class="qa-title-tag">The Fearless Queen</p>
+            </div>
+            <p class="qa-motto">&ldquo;Rule With Passion.&rdquo;</p>
+          </div>
+
+          <div class="qa-details" aria-hidden="true">
+            <div class="qa-phil">
+              <span class="qa-phil-icon">&#9819;</span>
+              <div>
+                <p class="qa-phil-title">The Heart</p>
+                <p class="qa-phil-text">To rule is to feel deeply. Passion is not a weakness; it is the fire that lights the way for others to follow.</p>
+              </div>
+            </div>
+            <div class="qa-notes-divider"></div>
+            <div class="qa-notes-grid">
+              <div class="qa-note-item">
+                <span class="qa-note-tier">Top</span>
+                <span class="qa-note-name">Saffron</span>
+              </div>
+              <div class="qa-note-item">
+                <span class="qa-note-tier">Heart</span>
+                <span class="qa-note-name">Rose</span>
+              </div>
+              <div class="qa-note-item">
+                <span class="qa-note-tier">Base</span>
+                <span class="qa-note-name">Amber</span>
+              </div>
+            </div>
+            <a href="https://wa.me/6281234567890?text=Hello%20Scentalicious,%20I%20would%20like%20to%20order%20Leonor." target="_blank" class="qa-order-btn">Order Leonor &rarr;</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- ── 03 CATARINA ── -->
+      <article class="qa-item qa-catarina" id="card-catarina" tabindex="0" aria-label="Catarina — The Artistic Queen">
+        <div class="qa-inner">
+          <div class="qa-bg" style="background-image: url('assets/images/catarina.jpg');"></div>
+          <div class="qa-overlay"></div>
+          
+          <div class="qa-left-zone">
+            <span class="qa-num" aria-hidden="true">03</span>
+            <div class="qa-identity">
+              <h3 class="qa-name">Catarina</h3>
+              <p class="qa-title-tag">The Artistic Queen</p>
+            </div>
+            <p class="qa-motto">&ldquo;Elegance Is An Art.&rdquo;</p>
+          </div>
+
+          <div class="qa-details" aria-hidden="true">
+            <div class="qa-phil">
+              <span class="qa-phil-icon">&#9819;</span>
+              <div>
+                <p class="qa-phil-title">The Signature</p>
+                <p class="qa-phil-text">True elegance is quiet. It speaks in whispers of jasmine and sandalwood, creating a canvas of timeless sophistication.</p>
+              </div>
+            </div>
+            <div class="qa-notes-divider"></div>
+            <div class="qa-notes-grid">
+              <div class="qa-note-item">
+                <span class="qa-note-tier">Top</span>
+                <span class="qa-note-name">Fig</span>
+              </div>
+              <div class="qa-note-item">
+                <span class="qa-note-tier">Heart</span>
+                <span class="qa-note-name">Jasmine</span>
+              </div>
+              <div class="qa-note-item">
+                <span class="qa-note-tier">Base</span>
+                <span class="qa-note-name">Sandalwood</span>
+              </div>
+            </div>
+            <a href="https://wa.me/6281234567890?text=Hello%20Scentalicious,%20I%20would%20like%20to%20order%20Catarina." target="_blank" class="qa-order-btn">Order Catarina &rarr;</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- ── 04 CAMILLA ── -->
+      <article class="qa-item qa-camilla" id="card-camilla" tabindex="0" aria-label="Camilla — The Charming Queen">
+        <div class="qa-inner">
+          <div class="qa-bg" style="background-image: url('assets/images/camilla.jpg');"></div>
+          <div class="qa-overlay"></div>
+          
+          <div class="qa-left-zone">
+            <span class="qa-num" aria-hidden="true">04</span>
+            <div class="qa-identity">
+              <h3 class="qa-name">Camilla</h3>
+              <p class="qa-title-tag">The Charming Queen</p>
+            </div>
+            <p class="qa-motto">&ldquo;Radiate Warmth.&rdquo;</p>
+          </div>
+
+          <div class="qa-details" aria-hidden="true">
+            <div class="qa-phil">
+              <span class="qa-phil-icon">&#9819;</span>
+              <div>
+                <p class="qa-phil-title">The Glow</p>
+                <p class="qa-phil-text">A warm smile and a golden presence can disarm any shield. Camilla is the soft light of a setting sun captured in a bottle.</p>
+              </div>
+            </div>
+            <div class="qa-notes-divider"></div>
+            <div class="qa-notes-grid">
+              <div class="qa-note-item">
+                <span class="qa-note-tier">Top</span>
+                <span class="qa-note-name">Peach</span>
+              </div>
+              <div class="qa-note-item">
+                <span class="qa-note-tier">Heart</span>
+                <span class="qa-note-name">Magnolia</span>
+              </div>
+              <div class="qa-note-item">
+                <span class="qa-note-tier">Base</span>
+                <span class="qa-note-name">Vanilla</span>
+              </div>
+            </div>
+            <a href="https://wa.me/6281234567890?text=Hello%20Scentalicious,%20I%20would%20like%20to%20order%20Camilla." target="_blank" class="qa-order-btn">Order Camilla &rarr;</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- ── 05 HELENA ── -->
+      <article class="qa-item qa-helena" id="card-helena" tabindex="0" aria-label="Helena — The Timeless Queen">
+        <div class="qa-inner">
+          <div class="qa-bg" style="background-image: url('assets/images/helena.jpg');"></div>
+          <div class="qa-overlay"></div>
+          
+          <div class="qa-left-zone">
+            <span class="qa-num" aria-hidden="true">05</span>
+            <div class="qa-identity">
+              <h3 class="qa-name">Helena</h3>
+              <p class="qa-title-tag">The Timeless Queen</p>
+            </div>
+            <p class="qa-motto">&ldquo;Embrace The Mystery.&rdquo;</p>
+          </div>
+
+          <div class="qa-details" aria-hidden="true">
+            <div class="qa-phil">
+              <span class="qa-phil-icon">&#9819;</span>
+              <div>
+                <p class="qa-phil-title">The Mystery</p>
+                <p class="qa-phil-text">Time bows to the mysterious. Ethereal notes of lavender and musk weave a tale of royal heritage and silent majesty.</p>
+              </div>
+            </div>
+            <div class="qa-notes-divider"></div>
+            <div class="qa-notes-grid">
+              <div class="qa-note-item">
+                <span class="qa-note-tier">Top</span>
+                <span class="qa-note-name">Lavender</span>
+              </div>
+              <div class="qa-note-item">
+                <span class="qa-note-tier">Heart</span>
+                <span class="qa-note-name">Iris</span>
+              </div>
+              <div class="qa-note-item">
+                <span class="qa-note-tier">Base</span>
+                <span class="qa-note-name">Musk</span>
+              </div>
+            </div>
+            <a href="https://wa.me/6281234567890?text=Hello%20Scentalicious,%20I%20would%20like%20to%20order%20Helena." target="_blank" class="qa-order-btn">Order Helena &rarr;</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ╔══════════════════════════════════════════════════════════╗
+       ║  SECTION 06 — COLLECTION SHOWCASE
+       ╚══════════════════════════════════════════════════════════╝ -->
+  <section id="collection-showcase" class="reveal">
+    <div class="container">
+
+      <h2 class="showcase-headline">
+        FIVE QUEENS.<br>
+        <span class="line2">ONE COLLECTION.</span>
+      </h2>
+
+      <!-- Five Floating Bottles -->
+      <div class="showcase-bottles" aria-label="The Five Queens collection bottles">
+
+        <div class="showcase-bottle-item reveal reveal-delay-1">
+          <div class="showcase-bottle sb-alexandra" aria-label="Alexandra bottle">
+            <div class="sb-body"></div>
+            <div class="sb-neck"></div>
+            <div class="sb-cap"></div>
+          </div>
+          <span class="showcase-bottle-name">Alexandra</span>
+        </div>
+
+        <div class="showcase-bottle-item reveal reveal-delay-2">
+          <div class="showcase-bottle sb-leonor" aria-label="Leonor bottle">
+            <div class="sb-body"></div>
+            <div class="sb-neck"></div>
+            <div class="sb-cap"></div>
+          </div>
+          <span class="showcase-bottle-name">Leonor</span>
+        </div>
+
+        <div class="showcase-bottle-item reveal reveal-delay-3 center-bottle">
+          <div class="showcase-bottle sb-catarina" aria-label="Catarina bottle">
+            <div class="sb-body"></div>
+            <div class="sb-neck"></div>
+            <div class="sb-cap"></div>
+          </div>
+          <span class="showcase-bottle-name">Catarina</span>
+        </div>
+
+        <div class="showcase-bottle-item reveal reveal-delay-4">
+          <div class="showcase-bottle sb-camilla" aria-label="Camilla bottle">
+            <div class="sb-body"></div>
+            <div class="sb-neck"></div>
+            <div class="sb-cap"></div>
+          </div>
+          <span class="showcase-bottle-name">Camilla</span>
+        </div>
+
+        <div class="showcase-bottle-item reveal reveal-delay-5">
+          <div class="showcase-bottle sb-helena" aria-label="Helena bottle">
+            <div class="sb-body"></div>
+            <div class="sb-neck"></div>
+            <div class="sb-cap"></div>
+          </div>
+          <span class="showcase-bottle-name">Helena</span>
+        </div>
+
+      </div>
+
+      <div class="showcase-cta reveal reveal-delay-3">
+        <a href="https://wa.me/6281234567890?text=Hello%20Scentalicious,%20I%20would%20like%20to%20order%20from%20The%20Modern%20Queens%20Collection." target="_blank" class="btn-primary"><span>Explore The Collection</span></a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ╔══════════════════════════════════════════════════════════╗
+       ║  SECTION 08 — FOOTER
+       ╚══════════════════════════════════════════════════════════╝ -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="footer-logo-crown">&#9819;</span>SCENTALICIOUS
+          </div>
+          <p class="footer-tagline">The Modern Queens Collection</p>
+          <p class="footer-desc">
+            Luxury niche fragrance for the modern woman who leads her life with intention, grace, and an unforgettable
+            signature.
+          </p>
+        </div>
+
+        <div class="footer-nav">
+          <p class="footer-nav-title">Navigation</p>
+          <div class="footer-nav-links">
+            <a href="#brand-story">Story</a>
+            <a href="#five-queens">The Queens</a>
+            <a href="#collection-showcase">Collection</a>
+            <a href="https://wa.me/6281234567890?text=Hello%20Scentalicious,%20I%20would%20like%20to%20order%20from%20The%20Modern%20Queens%20Collection." target="_blank">Order Now</a>
+          </div>
+        </div>
+
+        <div class="footer-social">
+          <p class="footer-social-title">Connect</p>
+          <div class="footer-social-links">
+            <a class="footer-social-link" href="#" id="footer-instagram" aria-label="Follow us on Instagram">
+              <div class="social-icon" aria-hidden="true">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                  <circle cx="12" cy="12" r="4" />
+                  <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" />
+                </svg>
+              </div>
+              Instagram
+            </a>
+            <a class="footer-social-link" href="#" id="footer-tiktok" aria-label="Follow us on TikTok">
+              <div class="social-icon" aria-hidden="true">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0
+0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.82a8.18 8.18 0 0 0 4.78 1.52V6.89a4.85 4.85 0 0 1-1.01-.2z" />
+                </svg>
+              </div>
+              TikTok
+            </a>
+            <a class="footer-social-link" href="https://wa.me/6281234567890?text=Hello%20Scentalicious,%20I%20would%20like%20to%20order%20from%20The%20Modern%20Queens%20Collection." target="_blank" id="footer-whatsapp" aria-label="Chat with us on WhatsApp">
+              <div class="social-icon" aria-hidden="true">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12.037 21.984a9.92 9.92 0 0 1-5.067-1.393l-.363-.216-3.765.987 1.005-3.672-.236-.376A9.926 9.926 0 0 1 2.03 12.043c-.004-5.485 4.453-9.94 9.94-9.94a9.943 9.943 0 0 1 7.025 2.915 9.928 9.928 0 0 1 2.915 7.027c-.004 5.485-4.453 9.94-9.94 9.941zM20.147 3.86a11.83 11.83 0 0 0-8.11-3.347C5.508.513.18 5.84.177 12.399c-.001 2.097.548 4.143 1.59 5.947L.073 24l5.817-1.526a11.858 11.858 0 0 0 5.679 1.455h.005c6.527 0 11.849-5.322 11.852-11.879a11.835 11.835 0 0 0-3.364-8.243zm-4.321 11.233c-.234-.117-1.385-.683-1.602-.76-.216-.078-.375-.117-.532.117-.156.233-.608.76-.745.91-.137.15-.275.167-.508.05-.233-.117-.985-.362-1.877-1.16-.695-.618-1.164-1.382-1.3-1.615-.137-.233-.015-.359.102-.475.106-.104.234-.271.35-.405.117-.135.156-.226.234-.377.078-.15.039-.283-.02-.4-.058-.117-.532-1.284-.73-1.758-.192-.463-.387-.4-.531-.408-.137-.006-.296-.007-.455-.007-.158 0-.417.059-.634.293-.217.234-.829.81-.829 1.977 0 1.166.85 2.293.967 2.45.117.156 1.672 2.553 4.05 3.578.566.244 1.008.39 1.353.499.569.18 1.085.156 1.493.094.455-.068 1.399-.57 1.595-1.123.197-.553.197-1.01.137-1.109-.059-.098-.216-.156-.45-.273z" />
+                </svg>
+              </div>
+              WhatsApp
+            </a>
+            <a class="footer-social-link" href="mailto:hello@scentalicious.id" id="footer-email"
+              aria-label="Send us an email">
+              <div class="social-icon" aria-hidden="true">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="4" width="20" height="16" rx="2" />
+                  <polyline points="22 4 12 13 2 4" />
+                </svg>
+              </div>
+              hello@scentalicious.id
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span class="footer-copyright">&copy; 2026 Scentalicious. All rights reserved.</span>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
